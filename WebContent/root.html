@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+<meta charset="UTF-8">
+  	<head>
+	    <!-- <meta charset="utf-8"> -->
+	    <title>ViaBill</title>
+	      <!-- Favicon -->
+  		<link rel="shortcut icon" href="logo/favicon.ico">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta name="description" content="All right reserved by Musa Aliyev">
+	    <meta name="author" content="Musa Aliyev">
+
+	    <!-- Bootstrap core CSS -->
+	    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		
+		
+		<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+		<!-- Simplify -->
+		<link href="css/simplify.min.css" rel="stylesheet">
+		<!-- Custom -->
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<!-- JAlert -->
+	 	<link rel="stylesheet" href="css/jAlert-v3.css" />
+
+
+	 	<!-- ############################################################################################################### -->
+
+        <link rel="stylesheet" type="text/css" href="css/fileinput.css">
+
+
+
+
+
+
+
+
+  	</head>
+
+  	<body class="overflow-hidden dashboard">
+		<div class="wrapper preload">	
+			<header class="top-nav bgg">
+				<div class="top-nav-inner">
+					<div class="nav-header">
+						<button type="button" class="navbar-toggle pull-left sidebar-toggle" id="sidebarToggleSM">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						
+						
+						<a href="#" class="brand" btn="cp" rel-pnl="dashboard">
+							<i class="fa fa-database"></i><span class="brand-name">ViaBill</span>
+						</a>
+					</div>
+					<div class="nav-container">
+						<button type="button" class="navbar-toggle pull-left sidebar-toggle" id="sidebarToggleLG">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<div class="pull-right m-right-sm">
+							<div class="user-block hidden-xs">
+								<a href="#" id="userToggle" data-toggle="dropdown">
+									<img id="rounded_photo" src="img/profile.jpg"  alt="" class="img-circle inline-block user-profile-pic">
+									<!-- <i class="fa fa-user fa-2x" ></i> -->
+									<div class="user-detail inline-block" >
+										<p class="prf_user_name"></p>
+										<i class="fa fa-angle-down"></i>
+									</div>
+								</a>
+								<div class="panel border dropdown-menu user-panel customized-drpm">
+									<div class="panel-body paddingTB-sm">
+										<ul>
+											<li perm="profile">
+												<a href="#" btn="cp" rel-pnl="88">
+													<i class="fa fa-edit fa-lg"></i><span class="m-left-xs">My Profile</span>
+												</a>
+											</li>
+											<li>
+												<a href="login.html">
+													<i class="fa fa-power-off fa-lg"></i><span class="m-left-xs">Sign out</span>
+												</a>
+
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div><!-- ./top-nav-inner -->	
+			</header>
+
+
+<!-- ********************************************************************* -->
+							<!-- Control Panel -->
+<!-- ********************************************************************* -->
+
+
+			<aside class="sidebar-menu fixed sidebar-mini" id="aside">
+				<div class="sidebar-inner scrollable-sidebar">
+					<div class="main-menu">
+						<ul class="accordion">
+							<li class="menu-header">
+								Main Menu
+							</li>
+							<li class="bg-palette1 active">
+								<a href="#" btn="cp" rel-pnl="dashboard" action="load" element="dashboard">
+									<span class="menu-content block">
+										<span class="menu-icon"><i class="block fa fa-th-large fa-2x"></i></span>
+										<span class="text m-left-sm">Control Panel</span>
+									</span>
+									<span class="menu-content-hover block">Control Panel</span>
+								</a>
+							</li>
+							<li class="bg-palette3">
+								<a href="#" container="t3311" btn="cp" rel-pnl="11" action="list" element="company">
+									<span class="menu-content block">
+										<span class="menu-icon"><i class="block fa fa-university fa-2x"></i></span>
+										<span class="text m-left-sm">Companies</span>
+									</span>
+									<span class="menu-content-hover block">Companies</span>
+								</a>
+							</li>							
+						</ul>
+					</div>	
+
+
+					<div class="sidebar-fix-bottom clearfix">
+						<a href="login.html" class="pull-right font-18"><i class="ion-log-out"></i></a>
+					</div>
+				</div><!-- sidebar-inner -->
+			</aside>
+			
+
+<!-- ********************************************************************* -->
+					   <!-- / Control Panel -->
+<!-- ********************************************************************* -->
+<!-- ********************************************************************* -->
+<!-- ********************************************************************* -->
+	         <!-- Every thing goes inside main container -->
+<!-- ********************************************************************* -->
+<!-- ********************************************************************* -->
+<div class="main-container cntainer sidebar-mini">
+
+<!-- ********************************************************************* -->
+							<!-- Dashboard -->
+<!-- ********************************************************************* -->
+
+<div class="padding-md edspno" id="dashboard" toggable="out">
+					<div class="row">
+						<div class="col-sm-6">
+								<span class="i-text">Control Panel</span>
+						</div>
+
+					</div>
+
+				<div class="row m-top-md mr-15">
+
+					<div class="col-lg-2 col-sm-3 col-md-3 col-xs-6 pdno">
+						
+							<div class="i-box center">
+									<div class="i-box-text"><span container="t3311" btn="cp" rel-pnl="11" action="list" element="company" class="i-box-txt-span">Companies</span></div>
+									<img class="i-box-shadow" alt="">
+									<div class="i-box-img-div"><img container="t3311" btn="cp" rel-pnl="11" action="list" element="company" class="i-box-img" src="img/img1.png" alt=""></div>
+							</div>
+						
+					</div>
+
+					
+
+				</div>
+
+</div><!-- #/ dashboard-->
+
+<!-- ********************************************************************* -->
+							<!-- / Dashboard -->
+<!-- ********************************************************************* -->			
+
+
+<!--                               PALIGON                                 -->
+
+<!-- Category Product and Details action -->
+<div class="edspno w100" id="11" toggable="out">
+
+		<div class="col-md-10 center list" id="t3311" out="11" toggable="in">
+				<!-- Render here with js -->
+		</div>
+
+</div><!-- / 11 -->
+
+
+
+<!--                         END   of   PALIGON                                 -->
+
+
+
+</div><!-- /main-container -->
+
+</div><!-- /wrapper -->
+
+
+
+
+
+		<a href="#" class="scroll-to-top hidden-print"><i class="fa fa-chevron-up fa-lg"></i></a>
+
+
+
+				<div class="confirm"></div>
+
+
+
+                 <div class="modal-of-loader">
+                  <!-- Place at bottom of page -->
+                </div>
+
+
+		<script src="jquery/jquery-min-2.1.4.js"></script>
+		<!-- Bootstrap -->
+	    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+		<!-- Slimscroll -->
+		<script src='js/jquery.slimscroll.min.js'></script>
+		<script src='js/modernizr.min.js'></script>
+
+		<script type="text/javascript" src="js/fileinput.js"></script>
+		<script src="js/simplify.js"></script>
+		<script src="js/jAlert-v3.js"></script>
+		<script src="js/gl.js"></script>
+
+  	</body>
+</html>
