@@ -6,6 +6,8 @@ Simple example about Company CRUD operators
 
 DB mysql
 
+...
+
 CREATE TABLE `COMPANY` (
        `ID` int(11) NOT NULL AUTO_INCREMENT,
        `MODIFICATION_DATE` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
@@ -18,3 +20,5 @@ CREATE TABLE `COMPANY` (
        `MODIFIED_BY` varchar(32) DEFAULT NULL,
        PRIMARY KEY (`ID`)
      );
+
+...
