@@ -6,7 +6,7 @@ Simple example about Company CRUD operators
 
 DB mysql
 
-...
+...sql
 
 CREATE TABLE `COMPANY` (
        `ID` int(11) NOT NULL AUTO_INCREMENT,
