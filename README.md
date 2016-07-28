@@ -6,7 +6,7 @@ Simple example about Company CRUD operators
 
 DB mysql
 
-...js
+```
 
 CREATE TABLE `COMPANY` (
        `ID` int(11) NOT NULL AUTO_INCREMENT,
@@ -21,4 +21,4 @@ CREATE TABLE `COMPANY` (
        PRIMARY KEY (`ID`)
      );
 
-...
+```
