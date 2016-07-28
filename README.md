@@ -1,6 +1,6 @@
-# ViaBill
-Company example
+# Web Application
 
+You can use this as a Maven project in any IDE
 
 Simple example about Company CRUD operators
 
